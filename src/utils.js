@@ -52,6 +52,7 @@ exports.install = async function() {
   return method
 }
 async function chooseMethod(question) {
+  if(!shell.which(question)) return false
   const ask = {
     type: 'confirm',
     name: 'use',
