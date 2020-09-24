@@ -1,0 +1,22 @@
+#! /usr/bin/env node
+
+const { program } = require('commander')
+
+
+program
+  .version('1.0.2')
+  .command('init [name]')
+  .description('init dan template')
+  .action(function() {
+    require('../src/init')()
+  })
+
+program
+  .command('create <name>')
+  .description('create dan-template default')
+  .action(function(name) {
+    console.log('aaa',name)
+    require('../src/init')({ name })
+  })
+
+program.parse(process.argv)

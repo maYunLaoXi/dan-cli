@@ -1,0 +1,30 @@
+{
+  "name": "dan-cli",
+  "version": "1.0.1",
+  "description": "dan-cli",
+  "main": "index.js",
+  "bin": {
+    "dan": "bin/dan"
+  },
+  "scripts": {
+    "test": "dan test"
+  },
+  "keywords": [
+    "dan-cli"
+  ],
+  "author": "maYunLaoXi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "mem-fs": "^1.2.0",
+    "mem-fs-editor": "^7.0.1",
+    "ora": "^5.1.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.4"
+  }
+}
