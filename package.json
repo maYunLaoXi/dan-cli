@@ -12,6 +12,11 @@
   "keywords": [
     "dan-cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maYunLaoXi/dan-cli.git"
+  },
+  "homepage": "https://github.com/maYunLaoXi/dan-cli",
   "author": "maYunLaoXi",
   "license": "ISC",
   "dependencies": {
