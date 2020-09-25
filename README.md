@@ -5,8 +5,7 @@
 ### usage
 ```
 npm install dan-cli -g
-```
-```
+// 或
 yarn global add dan-cli
 ```
 
