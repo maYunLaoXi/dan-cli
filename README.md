@@ -18,7 +18,10 @@ dan --version
 dan create dan-demo
 ```
 
+或
 init
 ```
 dan init 
 ```
+
+文档: [github.com/maYunLaoXi/official-web-starter](https://github.com/maYunLaoXi/official-web-starter)
